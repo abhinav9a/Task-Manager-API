@@ -10,6 +10,12 @@ The API allow users to perform basic CRUD operations on tasks and includes basic
 -   Normal users can create or update tasks.
 -   Staff users can create, update, or delete tasks.
 
+## Live Demo
+
+Swagger UI URL: [Task-Manager-API](https://abhinav9a.pythonanywhere.com/api/schema/swagger-ui/)
+
+Admin Panel: [Admin Panel](https://abhinav9a.pythonanywhere.com/admin/)
+
 ## Getting Started
 
 ### Dependencies
@@ -19,12 +25,6 @@ The API allow users to perform basic CRUD operations on tasks and includes basic
 -   Django Rest Framework
 -   djangorestframework-simplejwt (For JWT Authentication)
 -   drf-spectacular (For Swagger documentation)
-
-### Live Demo
-
-Swagger UI URL: [Task-Manager-API](https://abhinav9a.pythonanywhere.com/api/schema/swagger-ui/)
-
-Admin Panel: [Admin Panel](https://abhinav9a.pythonanywhere.com/admin/)
 
 ### Installation
 
