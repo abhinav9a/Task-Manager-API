@@ -1,0 +1,177 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$pH8JY0iPyG3q8LARCsewNg$7RoOtI+FtfAiJRWfmnB1xJYkP5x7UakBPkJwnvjepLk=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "Admin",
+      "last_name": "User",
+      "email": "admin@example.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-03-09T06:05:05.321Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$lUaQvefL2l916u78slgEPT$xPFHNFWltZ/QLloCwkU8f97cJOzrrAavmst0XJGJ/Fs=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "staff",
+      "first_name": "Staff",
+      "last_name": "User",
+      "email": "staff@example.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-03-09T06:05:06.848Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$Vg0vbVioMiXFdHrClRQ94M$lCgtHXEtOyYrNUAIQT9ZvKHdlipyV7DWgSJIsBjIgHQ=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "test",
+      "first_name": "Test",
+      "last_name": "User",
+      "email": "test@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-03-09T06:05:08.327Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "api.task",
+    "pk": 1,
+    "fields": {
+      "title": "Task 1",
+      "description": "Task 1 Description",
+      "completed": false,
+      "created_at": "2024-03-09T05:37:04.897Z",
+      "updated_at": "2024-03-09T05:37:04.897Z"
+    }
+  },
+  {
+    "model": "api.task",
+    "pk": 2,
+    "fields": {
+      "title": "Task 2",
+      "description": "Task 2 Description",
+      "completed": true,
+      "created_at": "2024-03-09T05:37:04.901Z",
+      "updated_at": "2024-03-09T05:37:04.901Z"
+    }
+  },
+  {
+    "model": "api.task",
+    "pk": 3,
+    "fields": {
+      "title": "Task 3",
+      "description": "Task 3 Description",
+      "completed": false,
+      "created_at": "2024-03-09T05:37:04.906Z",
+      "updated_at": "2024-03-09T05:37:04.906Z"
+    }
+  },
+  {
+    "model": "api.task",
+    "pk": 4,
+    "fields": {
+      "title": "Task 4",
+      "description": "Task 4 Description",
+      "completed": false,
+      "created_at": "2024-03-09T05:37:04.910Z",
+      "updated_at": "2024-03-09T05:37:04.910Z"
+    }
+  },
+  {
+    "model": "api.task",
+    "pk": 5,
+    "fields": {
+      "title": "Task 5",
+      "description": "Task 5 Description",
+      "completed": false,
+      "created_at": "2024-03-09T05:37:04.914Z",
+      "updated_at": "2024-03-09T05:37:04.914Z"
+    }
+  },
+  {
+    "model": "api.task",
+    "pk": 6,
+    "fields": {
+      "title": "Task 6",
+      "description": "Task 6 Description",
+      "completed": true,
+      "created_at": "2024-03-09T05:37:04.917Z",
+      "updated_at": "2024-03-09T05:37:04.917Z"
+    }
+  },
+  {
+    "model": "api.task",
+    "pk": 7,
+    "fields": {
+      "title": "Task 7",
+      "description": "Task 7 Description",
+      "completed": true,
+      "created_at": "2024-03-09T05:37:04.917Z",
+      "updated_at": "2024-03-09T05:37:04.917Z"
+    }
+  },
+  {
+    "model": "api.task",
+    "pk": 8,
+    "fields": {
+      "title": "Task 8",
+      "description": "Task 8 Description",
+      "completed": false,
+      "created_at": "2024-03-09T05:37:04.926Z",
+      "updated_at": "2024-03-09T05:37:04.926Z"
+    }
+  },
+  {
+    "model": "api.task",
+    "pk": 9,
+    "fields": {
+      "title": "Task 9",
+      "description": "Task 9 Description",
+      "completed": false,
+      "created_at": "2024-03-09T05:37:04.930Z",
+      "updated_at": "2024-03-09T05:37:04.930Z"
+    }
+  },
+  {
+    "model": "api.task",
+    "pk": 10,
+    "fields": {
+      "title": "Task 10",
+      "description": "Task 10 Description",
+      "completed": true,
+      "created_at": "2024-03-09T05:37:04.933Z",
+      "updated_at": "2024-03-09T05:37:04.933Z"
+    }
+  },
+  {
+    "model": "api.task",
+    "pk": 11,
+    "fields": {
+      "title": "Task 11",
+      "description": "Task 11 Description",
+      "completed": true,
+      "created_at": "2024-03-09T05:53:18.625Z",
+      "updated_at": "2024-03-09T05:53:18.625Z"
+    }
+  }
+]
