@@ -69,3 +69,9 @@ python manage.py loaddata seed_data.json
 ```
 python manage.py runserver
 ```
+
+## Test
+
+```
+python manage.py test api.tests
+```

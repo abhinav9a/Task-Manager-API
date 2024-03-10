@@ -17,6 +17,7 @@ def create_user():
         'first_name': 'test',
         'last_name': 'user',
         'email': 'testuser@example.com',
+        'is_staff': True,
     }
     user = User.objects.create_user(**data)
     return user
